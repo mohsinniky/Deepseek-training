@@ -1,0 +1,28 @@
+.button{
+    float: left;
+    background-color: #2ecc71;
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+    transition: all o.3s ease;
+    cursor: pointer;
+    font-family: bold;
+
+
+}
+.button:hover{
+    background-color: #27ae60;
+    box-shadow: 0px 6px 8px rgba(0,0,0,0.1);
+    transform: translateY(-2px);
+
+
+    
+}
+
+.button-container{
+    margin:20px;
+    height: 200px;
+}
